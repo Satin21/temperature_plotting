@@ -4,7 +4,7 @@ import os
 
 def test_compute_mean():
     calc = tpl.compute_mean([0, 10, 20])
-    assert calc == 10
+    assert calc == 9
     assert isinstance(calc, float)
 
     with pytest.raises(TypeError):
